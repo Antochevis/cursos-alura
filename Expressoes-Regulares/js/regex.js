@@ -61,7 +61,7 @@ function logaTempoDeExecucao(textoPattern, textoTarget) {
     pObjetoRegex.test(textoTarget)
 	var fim =  performance.now();
 	console.log("Tempo de execução (ms) " + (fim-ini));
-}
+} 
 
 function imprimeResultadoNoInput(resultados) {
 	var inputResultado 	= document.querySelector('#resultado');
